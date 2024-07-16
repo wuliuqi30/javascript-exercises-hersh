@@ -1,5 +1,10 @@
 const repeatString = function(inputString,numRepeats) {
-    return inputString.repeat(numRepeats);
+    if (numRepeats < 0) {
+        return "ERROR";
+        
+    } else {
+        return inputString.repeat(numRepeats);
+    } 
 };
 
 // Do not edit below this line
